@@ -13,7 +13,7 @@ ul a {
 
  body {
     background-color: lightblue;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -28,28 +28,39 @@ ul a {
     padding: 0 200px;
 }
 
+.header-logo {
+    font-variant: small-caps;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
 .intro-banner {
     display: flex;
-    margin: 50px 0;
+    margin: 120px 0;
     padding: 0 200px;
 }
 
 .intro-text {
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 700;
+}
+
+.intro-description,
+.regular-join-text {
+    color: snow;
 }
 
 .intro-left-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     color: white;
     padding-right: 40px;
 }
 
 .info-banner {
     background-color: white;
-    padding: 40px 200px;
+    padding: 25px 200px 100px 200px;
 }
 
 .info-banner-text {
@@ -79,18 +90,19 @@ ul a {
 .join-banner {
     background-color: white;
     display: flex;
-    padding: 50px 200px;
+    padding: 100px 200px;
     justify-content: center;
     align-items: space-evenly;
-    
 }
 
 button {
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 15px;
-    padding: 0 20px;
+    padding: 5px 25px;
     color: white;
-    weight: 700;
+    font-weight: 700;
+    width: 115px;
+    height: 35px;
 }
 
 .sign-up {
@@ -104,39 +116,50 @@ button {
     align-items: center;
     height: 100px;
     color: white;
-
 }
 
 .quote-block {
-    background-color: gainsboro;
+    background-color: #E8E8E8;
     font-size: 40px;
-    height: 330px;
+    height: 400px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px 200px;
+    padding: 30px 300px;
 }
 
 .quote-text {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
+    font-weight: 100;
 }
 
 .quote-author {
     font-weight: 700;
     text-align: right;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 5px 50px;
 }
 
 .join-color-box {
     background-color: steelblue;
     color: white;
-    height: 200px;
-    width: 1400px;
+    height: 150px;
+    width: 1100px;
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 50px 200px;
+    
+}
+
+.bold-join-text {
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px 0;
+}
+ 
+.join-sign-up {
+    background-color: steelblue;
+    border: 1px solid white;
 }
